@@ -31,15 +31,15 @@ public class CashbackHackServiceTest {
 
     }
 
-//    @Test
-//    public void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpectedForJunitFour() {
-//        int sum = 1_000;
-//
-//        int expected = 0;
-//        int actual = cashbackHackService.remain(sum);
-//
-//        Assert.assertEquals(expected, actual);
-//    }
+    @Test
+    public void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpectedForJunitFour() {
+        int sum = 1_000;
+
+        int expected = 0;
+        int actual = cashbackHackService.remain(sum);
+
+        Assert.assertEquals(expected, actual);
+    }
 
     @org.junit.jupiter.api.Test
     void shouldReturnTheMissingAmountForBonusForJUnitJupiter() {
@@ -62,13 +62,13 @@ public class CashbackHackServiceTest {
 
     }
 
-//    @org.junit.jupiter.api.Test
-//    void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpectedForJUnitJupiter() {
-//        int sum = 1_000;
-//
-//        int expected = 0;
-//        int actual = cashbackHackService.remain(sum);
-//
-//        Assertions.assertEquals(expected, actual);
-//    }
+    @org.junit.jupiter.api.Test
+    void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpectedForJUnitJupiter() {
+        int sum = 1_000;
+
+        int expected = 0;
+        int actual = cashbackHackService.remain(sum);
+
+        Assertions.assertEquals(expected, actual);
+    }
 }
