@@ -29,13 +29,13 @@ public class CashbackHackServiceTest {
 
     }
 
-//    @Test
-//    void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpected() {
-//        int sum = 1_000;
-//
-//        int expected = 0;
-//        int actual = cashbackHackService.remain(sum);
-//
-//        assertEquals(actual, expected);
-//    }
+    @Test
+    void shouldReturnTheMissingAmountForBonusIfTheActualAmountEqualsTheExpected() {
+        int sum = 1_000;
+
+        int expected = 0;
+        int actual = cashbackHackService.remain(sum);
+
+        assertEquals(actual, expected);
+    }
 }
